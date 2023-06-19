@@ -138,7 +138,7 @@ ul {
 }
 
 .info__list {
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .info__card {
