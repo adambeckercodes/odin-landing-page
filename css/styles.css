@@ -2,6 +2,7 @@
   --dark-bg: #1f2937;
   --text-light: #f9faf8;
   --text-light-secondary: #e5e7eb;
+  --text-dark: #1f2937;
   --blue: #3882f6;
 }
 
@@ -95,15 +96,14 @@ ul {
 
 .hero__title {
   margin-bottom: 15px;
-  max-width: 400px;
+  max-width: 500px;
   font-size: 48px;
   color: var(--text-light);
 }
 
 .hero__descr {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   max-width: 450px;
-  margin-bottom: 10px;
   font-size: 18px;
   color: var(--text-light-secondary);
 }
@@ -116,4 +116,47 @@ ul {
 .hero__right img {
   height: 100%;
   width: 100%;
+}
+
+/* Info */
+.info__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info__title {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 36px;
+  color: var(--text-dark);
+}
+
+.info__list {
+  gap: 20px;
+}
+
+.info__card {
+  width: 23%;
+}
+
+.info__img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid var(--blue);
+  border-radius: 15px;
+}
+
+.info__card-title {
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.info__card-descr {
+  padding: 10px;
+  color: var(--text-dark);
 }
