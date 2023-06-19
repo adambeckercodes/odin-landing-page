@@ -1,12 +1,13 @@
 :root {
   --dark-bg: #1f2937;
+  --light-bg: #e5e7eb;
   --text-light: #f9faf8;
   --text-light-secondary: #e5e7eb;
   --text-dark: #1f2937;
   --blue: #3882f6;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html {
   box-sizing: border-box;
@@ -129,7 +130,7 @@ ul {
 .info__title {
   margin-bottom: 80px;
   text-align: center;
-  font-size: 36px;
+  font-size: 40px;
   color: var(--text-dark);
 }
 
@@ -159,4 +160,28 @@ ul {
 .info__card-descr {
   padding: 10px;
   color: var(--text-dark);
+}
+
+/* Quote */
+.quote {
+  background: var(--light-bg);
+}
+
+.quote__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 160px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote p {
+  text-align: end;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
 }
